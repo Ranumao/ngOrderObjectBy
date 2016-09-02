@@ -1,12 +1,12 @@
 {
-  "name": "angular-order-object-by",
+  "name": "angular-order-object-by-ignore-case",
   "version": "1.3.0",
   "authors": [
     "Justin Klemm",
     "Fabricio Quagliariello",
     "Diego Urrutibehety"
   ],
-  "description": "An Angular filter to order an object of objects by a given attribute on the children objects",
+  "description": "An Angular filter deriving from angular-order-object-by",
   "main": "src/ng-order-object-by.js",
   "keywords": [
     "angular",
