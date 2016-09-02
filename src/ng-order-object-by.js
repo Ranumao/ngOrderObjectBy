@@ -24,8 +24,8 @@
 
           filtered.sort(function (a, b) {
             var comparator;
-            var reducedA = field.split('.').reduce(index, a);
-            var reducedB = field.split('.').reduce(index, b);
+            var reducedA = field.split('.').reduce(index, a).toUpperCase();
+            var reducedB = field.split('.').reduce(index, b).toUpperCase();
 
             if (isNumeric(reducedA) && isNumeric(reducedB)) {
               reducedA = Number(reducedA);
